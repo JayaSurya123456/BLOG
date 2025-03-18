@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67b02a72c51ce9b710556017"
+  },
+  "title": "Introduction to Node.js",
+  "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows ess to a vast ecosystem of libraries and tools.",
+  "category": {
+    "$oid": "67b816e097617420db6d1741"
+  },
+  "author": "Jane Doe",
+  "image": "https://placehold.co/800x400?text=Introduction+to+Node.js",
+  "createdAt": "2024-07-15T10:00:00Z",
+  "updatedAt": {
+    "$date": "2025-02-15T05:57:14.451Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b02a72c51ce9b710556018"
+  },
+  "title": "Getting Started with MongoDB",
+  "content": "MongoDB is a NoSQL database that uses a document-oriented data model. Unlike traditional relational databases, MongoDB stores data in flexible, JSON-like documents. This allows for a dynamic schema, meaning that you can store different types of data in the same collection without predefined schemas. MongoDB provides high performance and scalability, making it suitable for handling large volumes of data. Features like automatic sharding and replication ensure that data is distributed and duplicated across multiple servers, which enhances reliability and fault tolerance. MongoDB's rich query language and indexing capabilities make it a powerful choice for modern web applications.",
+  "category": {
+    "$oid": "67b6cc7d55e3d5728c311f9f"
+  },
+  "author": "John Smith",
+  "image": "https://placehold.co/800x400?text=Getting+Started+with+MongoDB",
+  "createdAt": "2024-07-16T11:00:00Z",
+  "updatedAt": "2024-07-16T11:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "67b02a72c51ce9b710556019"
+  },
+  "title": "Exploring Express.js",
+  "content": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. It simplifies the process of creating server-side applications by providing a set of middleware functions that can be used to handle requests, responses, and other tasks. With Express, you can easily define routes for handling different HTTP methods and URL patterns. It also supports template engines, which allows you to dynamically generate HTML pages based on data from your application. Express is known for its simplicity, performance, and extensibility, making it a popular choice for building APIs and web applications.",
+  "category": {
+    "$oid": "67b6cc7d55e3d5728c311fa0"
+  },
+  "author": "Alice Johnson",
+  "image": "https://placehold.co/800x400?text=Exploring+Express.js",
+  "createdAt": "2024-07-17T12:00:00Z",
+  "updatedAt": "2024-07-17T12:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "67b02a72c51ce9b71055601a"
+  },
+  "title": "Understanding RESTful APIs",
+  "content": "RESTful APIs (Representational State Transfer) are a set of design principles for creating networked applications. They are based on stateless, client-server communication and use standard HTTP methods such as GET, POST, PUT, and DELETE. RESTful APIs rely on resources, which are identified by URIs (Uniform Resource Identifiers), and represent data in formats like JSON or XML. One of the main benefits of REST is its simplicity and scalability; it allows for interactions between clients and servers using standard HTTP protocols without requiring custom methods. RESTful APIs are commonly used in web services to enable communication between different systems and to expose data and functionality to external applications.",
+  "category": {
+    "$oid": "67b6cc7d55e3d5728c311fa1"
+  },
+  "author": "Bob Brown",
+  "image": "https://placehold.co/800x400?text=Understanding+RESTful+APIs",
+  "createdAt": "2024-07-18T13:00:00Z",
+  "updatedAt": "2024-07-18T13:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "67b02a72c51ce9b71055601b"
+  },
+  "title": "Introduction to JavaScript ES6",
+  "content": "ECMAScript 6 (ES6), also known as ECMAScript 2015, introduced a variety of new features and improvements to the JavaScript language. These enhancements include arrow functions, which provide a shorter syntax for writing functions and lexically bind the `this` value; classes, which offer a more intuitive way to create objects and handle inheritance; and template literals, which allow for easier string interpolation and multi-line strings. ES6 also brought new data structures such as `Map` and `Set`, as well as additional features like destructuring assignment and the `async/await` syntax for handling asynchronous operations. These features help make JavaScript code more concise, readable, and maintainable.",
+  "category": {
+    "$oid": "67b6cc7d55e3d5728c311fa2"
+  },
+  "author": "Emily Davis",
+  "image": "https://placehold.co/800x400?text=Introduction+to+JavaScript+ES6",
+  "createdAt": "2024-07-19T14:00:00Z",
+  "updatedAt": "2024-07-19T14:00:00Z"
+}]

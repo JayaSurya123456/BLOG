@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67b6cc7d55e3d5728c311f9f"
+  },
+  "name": "Database",
+  "slug": "database",
+  "description": "Posts about databases, including NoSQL, relational databases, and other data management technologies."
+},
+{
+  "_id": {
+    "$oid": "67b6cc7d55e3d5728c311fa0"
+  },
+  "name": "Framework",
+  "slug": "framework",
+  "description": "Posts on various web application frameworks, their usage, and best practices."
+},
+{
+  "_id": {
+    "$oid": "67b6cc7d55e3d5728c311fa1"
+  },
+  "name": "API",
+  "slug": "api",
+  "description": "Posts discussing RESTful APIs, their design, and how they facilitate communication between systems."
+},
+{
+  "_id": {
+    "$oid": "67b6cc7d55e3d5728c311fa2"
+  },
+  "name": "JavaScript",
+  "slug": "javascript",
+  "description": "Posts focusing on JavaScript language features, updates, and best practices."
+}]
