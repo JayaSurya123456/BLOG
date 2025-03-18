@@ -10,12 +10,14 @@ export default function CategoryPosts(){
     const {id}=useParams()
 
 	const fetchPosts= async()=>{
-	 const response = await axios.get(`http://localhost:3000/api/posts/category/${id}`)
+	//  const response = await axios.get(`http://localhost:3000/api/posts/category/${id}`)
+	 const response = await axios.get(`https://blog-548v.onrender.com/api/posts/category/${id}`)
 	 setPosts(response.data)
 	}
     
 	const fetchCategory= async()=>{
-	const response = await axios.get(`http://localhost:3000/api/categories/${id}`)
+	// const response = await axios.get(`http://localhost:3000/api/categories/${id}`)
+	const response = await axios.get(`https://blog-548v.onrender.com/api/categories/${id}`)
 	 setCategory(response.data)
 	}
 

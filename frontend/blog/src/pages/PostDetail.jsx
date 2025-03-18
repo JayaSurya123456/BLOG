@@ -9,7 +9,9 @@ export default function PostDetail(){
 
     const fetchPost=async()=>{
         try {
-         const response=  await axios.get(`http://localhost:3000/api/posts/${id}`)
+        //  const response=  await axios.get(`http://localhost:3000/api/posts/${id}`)
+         const response=  await axios.get(`https://blog-548v.onrender.com/api/posts/${id}`)
+
          setPost(response.data)
          } catch (error) {
             console.log('error fetching post ',error)

@@ -10,12 +10,16 @@ export default function PostList(){
 
 
 	const fetchPosts= async()=>{
-	 const response = await axios.get('http://localhost:3000/api/posts')
+	//  const response = await axios.get('http://localhost:3000/api/posts')
+	 const response = await axios.get('https://blog-548v.onrender.com/api/posts')
+
 	 setPosts(response.data)
 	}
     
 	const fetchCategories= async()=>{
-	const response = await axios.get('http://localhost:3000/api/categories')
+	// const response = await axios.get('http://localhost:3000/api/categories')
+	const response = await axios.get('https://blog-548v.onrender.com/api/categories')
+
 	 setCategories(response.data)
 	}
 
